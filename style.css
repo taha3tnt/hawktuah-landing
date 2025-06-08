@@ -1,37 +1,41 @@
 
 body {
+  background: #0d0d0d;
+  font-family: Arial, sans-serif;
+  color: #fff;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background: #1a1a1a;
-  color: #fff;
   text-align: center;
 }
 .container {
-  margin-top: 10%;
+  margin-top: 80px;
 }
 .logo {
   width: 120px;
+  border-radius: 50%;
 }
 h1 {
-  font-size: 2.5rem;
+  font-size: 3em;
   margin: 20px 0 10px;
 }
-p {
-  font-size: 1.2rem;
-  color: #ccc;
+.subtitle {
+  font-size: 1.2em;
+  color: #ff4081;
 }
-.btn {
-  display: inline-block;
-  margin: 10px;
-  padding: 12px 24px;
-  background: #ff007a;
-  color: white;
+.buttons {
+  margin: 20px 0;
+}
+a {
   text-decoration: none;
-  border-radius: 4px;
+  color: white;
+  background: #ff4081;
+  padding: 10px 20px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 6px;
 }
-.note {
-  margin-top: 40px;
-  font-size: 0.9rem;
-  color: #888;
+.status {
+  color: #aaa;
+  font-size: 0.9em;
+  margin-top: 30px;
 }
