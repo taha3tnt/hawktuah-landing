@@ -1,49 +1,30 @@
+
 body {
-  background-color: #000;
-  color: #fff;
-  font-family: sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
 }
-
-.container {
-  padding: 50px 20px;
-}
-
 .logo {
-  width: 100px;
-  margin-bottom: 20px;
+    width: 100px;
+    border-radius: 50%;
 }
-
-h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
-  color: #ff69b4;
+.container {
+    max-width: 600px;
+    margin: auto;
 }
-
-p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
 .buttons a {
-  display: inline-block;
-  margin: 10px;
-  padding: 12px 25px;
-  background-color: #ff1493;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: hotpink;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
-
-.buttons a:hover {
-  background-color: #ff3399;
-}
-
-.footer {
-  margin-top: 50px;
-  font-size: 0.9em;
-  color: #999;
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #aaa;
 }
